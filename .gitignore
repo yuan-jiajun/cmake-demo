@@ -1,1 +1,5 @@
-build/
+build/*
+CMakeFiles/*
+cmake-build-debug/*
+.idea/*
+.git/*
