@@ -1,0 +1,6 @@
+/cygdrive/f/workspace/c/cmake-demo/Demo4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/f/workspace/c/cmake-demo/Demo4/cmake-build-debug/CMakeFiles/Demo4.dir
+/cygdrive/f/workspace/c/cmake-demo/Demo4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/f/workspace/c/cmake-demo/Demo4/cmake-build-debug/math/CMakeFiles/rebuild_cache.dir
+/cygdrive/f/workspace/c/cmake-demo/Demo4/cmake-build-debug/math/CMakeFiles/MathFunctions.dir
+/cygdrive/f/workspace/c/cmake-demo/Demo4/cmake-build-debug/math/CMakeFiles/edit_cache.dir
