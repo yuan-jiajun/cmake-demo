@@ -28,11 +28,11 @@ endif (USE_MYMATH)
 aux_source_directory(. DIR_SRCS)
 
 # 指定生成目标
-add_executable(Demo5 ${DIR_SRCS})
-target_link_libraries(Demo5 ${EXTRA_LIBS})
+add_executable(Demo ${DIR_SRCS})
+target_link_libraries(Demo ${EXTRA_LIBS})
 
 # 指定安装路径
-install(TARGETS Demo5 DESTINATION ./bin)
+install(TARGETS Demo DESTINATION ./bin)
 install(FILES "${PROJECT_BINARY_DIR}/config.h" DESTINATION ./include)
 
 # 启用测试

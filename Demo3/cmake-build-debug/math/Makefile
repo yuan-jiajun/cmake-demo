@@ -125,32 +125,32 @@ MathFunctions/fast:
 	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug && $(MAKE) -f math/CMakeFiles/MathFunctions.dir/build.make math/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
-MathFunctions.o: MathFunctions.cc.o
+MathFunctions.o: MathFunctions.c.o
 
 .PHONY : MathFunctions.o
 
 # target to build an object file
-MathFunctions.cc.o:
-	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug && $(MAKE) -f math/CMakeFiles/MathFunctions.dir/build.make math/CMakeFiles/MathFunctions.dir/MathFunctions.cc.o
-.PHONY : MathFunctions.cc.o
+MathFunctions.c.o:
+	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug && $(MAKE) -f math/CMakeFiles/MathFunctions.dir/build.make math/CMakeFiles/MathFunctions.dir/MathFunctions.c.o
+.PHONY : MathFunctions.c.o
 
-MathFunctions.i: MathFunctions.cc.i
+MathFunctions.i: MathFunctions.c.i
 
 .PHONY : MathFunctions.i
 
 # target to preprocess a source file
-MathFunctions.cc.i:
-	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug && $(MAKE) -f math/CMakeFiles/MathFunctions.dir/build.make math/CMakeFiles/MathFunctions.dir/MathFunctions.cc.i
-.PHONY : MathFunctions.cc.i
+MathFunctions.c.i:
+	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug && $(MAKE) -f math/CMakeFiles/MathFunctions.dir/build.make math/CMakeFiles/MathFunctions.dir/MathFunctions.c.i
+.PHONY : MathFunctions.c.i
 
-MathFunctions.s: MathFunctions.cc.s
+MathFunctions.s: MathFunctions.c.s
 
 .PHONY : MathFunctions.s
 
 # target to generate assembly for a file
-MathFunctions.cc.s:
-	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug && $(MAKE) -f math/CMakeFiles/MathFunctions.dir/build.make math/CMakeFiles/MathFunctions.dir/MathFunctions.cc.s
-.PHONY : MathFunctions.cc.s
+MathFunctions.c.s:
+	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug && $(MAKE) -f math/CMakeFiles/MathFunctions.dir/build.make math/CMakeFiles/MathFunctions.dir/MathFunctions.c.s
+.PHONY : MathFunctions.c.s
 
 # Help Target
 help:

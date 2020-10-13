@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Demo5.dir/main.cc.o"
-  "Demo5.pdb"
   "Demo5.exe"
+  "Demo5.pdb"
   "libDemo5.dll.a"
 )
 

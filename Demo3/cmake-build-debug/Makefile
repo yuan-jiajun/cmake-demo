@@ -136,32 +136,32 @@ MathFunctions/fast:
 	$(MAKE) -f math/CMakeFiles/MathFunctions.dir/build.make math/CMakeFiles/MathFunctions.dir/build
 .PHONY : MathFunctions/fast
 
-main.o: main.cc.o
+main.o: main.c.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.cc.o:
-	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.cc.o
-.PHONY : main.cc.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.c.o
+.PHONY : main.c.o
 
-main.i: main.cc.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cc.i:
-	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.cc.i
-.PHONY : main.cc.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cc.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cc.s:
-	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.cc.s
-.PHONY : main.cc.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/Demo3.dir/build.make CMakeFiles/Demo3.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:

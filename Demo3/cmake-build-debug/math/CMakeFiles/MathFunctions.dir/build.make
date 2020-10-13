@@ -57,30 +57,30 @@ include math/CMakeFiles/MathFunctions.dir/progress.make
 # Include the compile flags for this target's objects.
 include math/CMakeFiles/MathFunctions.dir/flags.make
 
-math/CMakeFiles/MathFunctions.dir/MathFunctions.cc.o: math/CMakeFiles/MathFunctions.dir/flags.make
-math/CMakeFiles/MathFunctions.dir/MathFunctions.cc.o: ../math/MathFunctions.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object math/CMakeFiles/MathFunctions.dir/MathFunctions.cc.o"
-	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/math && /usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathFunctions.dir/MathFunctions.cc.o -c /cygdrive/f/workspace/c/cmake-demo/Demo3/math/MathFunctions.cc
+math/CMakeFiles/MathFunctions.dir/MathFunctions.c.o: math/CMakeFiles/MathFunctions.dir/flags.make
+math/CMakeFiles/MathFunctions.dir/MathFunctions.c.o: ../math/MathFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object math/CMakeFiles/MathFunctions.dir/MathFunctions.c.o"
+	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/math && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/MathFunctions.dir/MathFunctions.c.o   -c /cygdrive/f/workspace/c/cmake-demo/Demo3/math/MathFunctions.c
 
-math/CMakeFiles/MathFunctions.dir/MathFunctions.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathFunctions.dir/MathFunctions.cc.i"
-	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/math && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/f/workspace/c/cmake-demo/Demo3/math/MathFunctions.cc > CMakeFiles/MathFunctions.dir/MathFunctions.cc.i
+math/CMakeFiles/MathFunctions.dir/MathFunctions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MathFunctions.dir/MathFunctions.c.i"
+	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/math && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/f/workspace/c/cmake-demo/Demo3/math/MathFunctions.c > CMakeFiles/MathFunctions.dir/MathFunctions.c.i
 
-math/CMakeFiles/MathFunctions.dir/MathFunctions.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathFunctions.dir/MathFunctions.cc.s"
-	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/math && /usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/f/workspace/c/cmake-demo/Demo3/math/MathFunctions.cc -o CMakeFiles/MathFunctions.dir/MathFunctions.cc.s
+math/CMakeFiles/MathFunctions.dir/MathFunctions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MathFunctions.dir/MathFunctions.c.s"
+	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/math && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/f/workspace/c/cmake-demo/Demo3/math/MathFunctions.c -o CMakeFiles/MathFunctions.dir/MathFunctions.c.s
 
 # Object files for target MathFunctions
 MathFunctions_OBJECTS = \
-"CMakeFiles/MathFunctions.dir/MathFunctions.cc.o"
+"CMakeFiles/MathFunctions.dir/MathFunctions.c.o"
 
 # External object files for target MathFunctions
 MathFunctions_EXTERNAL_OBJECTS =
 
-math/libMathFunctions.a: math/CMakeFiles/MathFunctions.dir/MathFunctions.cc.o
+math/libMathFunctions.a: math/CMakeFiles/MathFunctions.dir/MathFunctions.c.o
 math/libMathFunctions.a: math/CMakeFiles/MathFunctions.dir/build.make
 math/libMathFunctions.a: math/CMakeFiles/MathFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMathFunctions.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libMathFunctions.a"
 	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/math && $(CMAKE_COMMAND) -P CMakeFiles/MathFunctions.dir/cmake_clean_target.cmake
 	cd /cygdrive/f/workspace/c/cmake-demo/Demo3/cmake-build-debug/math && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MathFunctions.dir/link.txt --verbose=$(VERBOSE)
 

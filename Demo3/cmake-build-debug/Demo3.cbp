@@ -122,10 +122,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cygdrive/f/workspace/c/cmake-demo/Demo3/main.cc">
+		<Unit filename="/cygdrive/f/workspace/c/cmake-demo/Demo3/main.c">
 			<Option target="Demo3"/>
 		</Unit>
-		<Unit filename="/cygdrive/f/workspace/c/cmake-demo/Demo3/math/MathFunctions.cc">
+		<Unit filename="/cygdrive/f/workspace/c/cmake-demo/Demo3/math/MathFunctions.c">
 			<Option target="MathFunctions"/>
 		</Unit>
 		<Unit filename="/cygdrive/f/workspace/c/cmake-demo/Demo3/math/MathFunctions.h">

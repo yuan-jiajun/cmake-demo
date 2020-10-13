@@ -22,4 +22,4 @@ Call Stack (most recent call first):
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /cygdrive/f/workspace/c/cmake-demo/Demo5/cmake-build-debug
+-- Build files have been written to: /cygdrive/f/workspace/c/cmake-demo/Demo5
